@@ -1,0 +1,40 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#puzzle {
+  margin-top: 1rem;
+  height: 450px;
+  width: 450px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+#puzzle input {
+  height: 50px;
+  width: 50px;
+  box-sizing: border-box;
+  border-spacing: 0;
+  border: 1px solid gray;
+}
+
+.btn {
+  display: flex;
+}
+
+.btn button {
+  flex-direction: row;
+  height: 50px;
+  width: 80px;
+  margin: auto;
+  margin-top: 2rem;
+  font-size: 16px;
+}
+
+.input-group {
+  background-color: rgb(238, 238, 238);
+}
